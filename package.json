@@ -1,0 +1,23 @@
+{
+  "name": "pr-title-lint-action",
+  "version": "1.0.0",
+  "description": "Check PR Titles against a regeular expression",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianraj/pr-title-lint-action.git"
+  },
+  "author": "Julian Manandhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianraj/pr-title-lint-action/issues"
+  },
+  "homepage": "https://github.com/julianraj/pr-title-lint-action#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.1"
+  }
+}

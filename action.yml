@@ -1,0 +1,12 @@
+name: 'Lint PR Title'
+description: 'Check PR Titles against a regeular expression'
+author: 'Julian Manandhar'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'node14'
+  main: 'dist/index.js'
