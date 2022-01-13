@@ -10,5 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ./
-
-    
+        with:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          PR_TITLE_REGEX: "^(\\[(CPB|KM)-\\d+\\] (feat|fix|refactor|enhancement|technical): [a-zA-Z0-9,/ _\\!\\@\\#\\$\\%\\&\\*\\(\\)\\-\\+\\.\\[\\]\"\\'\\:]+|Release v\\d+\\.\\d+(.\\d+)*)$"
