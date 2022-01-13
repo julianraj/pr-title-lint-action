@@ -8,9 +8,6 @@ lerna-debug.log*
 .pnpm-debug.log*
 
 
-# build files
-dist/
-
 # Dependency directories
 node_modules/
 jspm_packages/
